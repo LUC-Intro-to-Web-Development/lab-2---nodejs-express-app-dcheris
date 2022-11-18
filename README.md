@@ -210,3 +210,9 @@ You are going to build a web application that allows end-users to create user pr
 1.  Comment your name to the app.js file and 
 2.  Make sure your master branch is clean and push up your final changes.
 3.  In Sakai, submit the URL to your repository
+
+#### Date of Completion:
+##### November 18, 2022
+
+#### Course:
+##### CPST 342

@@ -5,12 +5,10 @@ var fs = require('fs');
 var user = require('../model/user.js');
 
 /* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
+//router.get('/', function(req, res, next) {
+//  res.send('respond with a resource');
+//});
 
-
-module.exports = router;
 
 /* Create User */
 router.post('/', function(req, res, next) {
@@ -48,4 +46,9 @@ router.post('/', function(req, res, next) {
   
     //Render the new user object to display view
     res.render('display', user)
+
   });
+
+  module.exports = router;
+
+
