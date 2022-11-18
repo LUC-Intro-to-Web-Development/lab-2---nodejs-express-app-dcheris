@@ -7,3 +7,6 @@ router.get('/', function(req, res, next) {
 });
 
 module.exports = router;
+
+//the statement below contains a render function - the first argument is the view name and the second argument is an object with one key/value pair.
+res.render('createuser', { title: 'Create Account'})
